@@ -351,7 +351,7 @@ body{
 
 }
 .site_descri h3,.innerbox h3{
-	font-size:20px;
+	font-size:18px;
 	text-align: center;
 	margin: 10px  0;
 	font-family: Cinzel Decorative;
@@ -375,7 +375,7 @@ body{
 blockquote{
 	text-align: center;
 	color: var(--blockquote);
-	font-size:18px:
+	font-size:16px:
 }
 
 .btn{
