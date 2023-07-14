@@ -29,7 +29,6 @@
 	--btnhover_bg:rgb(29, 84, 100);
 	--btnhover_shadow:rgb(32, 126, 130);
 	--frame2shadow:rgba(119, 109, 138,0.4);
-	--credit_inner_shadow:rgb(81, 50, 82,0.4);
 	--logo:rgb(42, 47, 79);
 	--navlink_a:rgb(242, 234, 211);
 	--project_heading_a_hvr:rgb(71, 169, 146);
@@ -360,6 +359,7 @@ body{
 }
 
 .describe{
+	font-size:16px;
 	margin: 5px 0;
 	font-family:Courier New, monospace;
 	font-weight: 100;
@@ -509,47 +509,7 @@ blockquote{
 
 }
 
-.credit_outer{
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(320px,0fr));
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-	height:420px;
 
-
-}
-
-.credit_inner{
-	display: grid;
-	align-items: center;
-	justify-content: center;
-	height: 300px;
-	width: 300px;
-	text-align: center;
-	border-radius: 1em;
-
-}
-.credit_inner img{
-	margin-top: 5px;
-	object-fit: 400%;
-	height: 250px;
-	width: 270px;
-	box-shadow: 0px 0px 5px 5px var(--credit_inner_shadow);
-	border-radius: 1em;
-
-
-
-}
-
-
-.credit_inner img:hover{
-	-ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-  transition-duration: 5s;
-	cursor: pointer;
-}
 
 #tools{
 	padding: 2em 0 3em 0;
