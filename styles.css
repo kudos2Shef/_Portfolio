@@ -351,6 +351,7 @@ body{
 
 }
 .site_descri h3,.innerbox h3{
+	font-size:16px;
 	text-align: center;
 	margin: 10px  0;
 	font-family: Cinzel Decorative;
@@ -369,10 +370,12 @@ body{
 .site_descri h3:hover,.describe:hover,blockquote:hover,.innerbox h3:hover,.sites_logo:hover{
 	color: var(--hover);
 	font-weight: bold;
+	font-style:italic;
 }
 blockquote{
 	text-align: center;
 	color: var(--blockquote);
+	font-size:16px:
 }
 
 .btn{
