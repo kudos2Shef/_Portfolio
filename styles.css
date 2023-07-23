@@ -625,7 +625,7 @@ padding:0 0.4rem;
 		font-size: 12px;
 	}
 	#list{
-		margin-right:0.5em;
+		margin-right:1em;
 	}
 	#about{
 		margin-top:7vh ;
@@ -633,7 +633,7 @@ padding:0 0.4rem;
 	}
 	
 	#about p{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	#description{
 	font-size:15px	
@@ -683,7 +683,7 @@ padding:0 0.4rem;
 		font-size: 14px;
 	}
 	#about{
-		margin-top:10vh ;
+		padding-top:10vh ;
 		
 	}
 	#list{
