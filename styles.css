@@ -652,7 +652,7 @@ padding:0 0.4rem;
 	.project_tile{
 		height: 550px;
 		width:400px;
-		min-width: 100%;
+		min-width: 390px;
 	}
 	.your_frame{
 		width: 350px;
