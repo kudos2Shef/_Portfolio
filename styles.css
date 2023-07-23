@@ -620,7 +620,7 @@ padding:0 0.4rem;
 
 
 
-@media (max-width:700px){
+@media (max-width:500px){
 	.nav-link{
 		font-size: 12px;
 	}
@@ -663,10 +663,59 @@ padding:0 0.4rem;
 	}
 	.outerbox{
 		flex-direction: column;
-		width: 370px;
+		width: 360px;
 		height: 850px;
 	}
 	
 
+	
+}
+
+
+@media (min-width:500px) and (max-width:760px){
+	.nav-link{
+		font-size: 14px;
+	}
+	#about{
+		margin-top:7vh ;
+		
+	}
+	
+	#about p{
+		font-size: 2em;
+	}
+	#description{
+	font-size:15px	
+	}
+
+	#clip{
+		font-size: 42px;
+	}
+	.credit_outer{
+		
+		grid-template-rows:1fr ;
+		grid-gap: 1em;
+		height: 650px;
+	}
+	.lined{
+		flex-direction: column;
+	}
+	
+	.project_tile{
+		height: 550px;
+		width: 400px;
+	}
+	.your_frame{
+		width: 350px;
+		margin:  25px 0px 0 22px;
+	}
+	.site_descri{
+		max-width: 420px;
+	}
+	.outerbox{
+		flex-direction: column;
+		width: 390px;
+		height: 850px;
+	}
 	
 }
