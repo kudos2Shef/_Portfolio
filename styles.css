@@ -624,6 +624,9 @@ padding:0 0.4rem;
 	.nav-link{
 		font-size: 12px;
 	}
+	#list{
+		margin-right:0.5em;
+	}
 	#about{
 		margin-top:7vh ;
 
@@ -675,12 +678,12 @@ padding:0 0.4rem;
 }
 
 
-@media (min-width:500px) and (max-width:760px){
+@media (min-width:500px) and (max-width:730px){
 	.nav-link{
 		font-size: 14px;
 	}
 	#about{
-		margin-top:7vh ;
+		margin-top:10vh ;
 		
 	}
 	
