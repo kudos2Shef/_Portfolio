@@ -38,7 +38,6 @@
 }
 
 body{
-
 	}
 
 
@@ -214,7 +213,7 @@ body{
 }
 
 #clip{
-	margin: 20vh 0 0 0;
+	margin: 20px 0;
 	font-size: 70px;
 	font-weight: 900;
 	font-family: Courier New;
@@ -259,6 +258,15 @@ body{
 
 }
 
+.proj_heading{
+	/*margin:0 0 40px 90px ;*/
+  margin-top:-1rem ;
+  margin-bottom: 1.5rem;
+	font-size: 20px;
+	font-family: courier new,cursive;
+
+}
+
 #projects{
 	min-height: 100vh;
 	width: 100%;
@@ -268,6 +276,12 @@ body{
 
 
 }
+
+.frontend_projects{
+  /* margin: 0.5rem 0;*/
+}
+
+
 
 .tile{
 	display: flex;
@@ -351,7 +365,6 @@ body{
 
 }
 .site_descri h3,.innerbox h3{
-	font-size:17px;
 	text-align: center;
 	margin: 10px  0;
 	font-family: Cinzel Decorative;
@@ -360,7 +373,7 @@ body{
 }
 
 .describe{
-	font-size:16px;
+	font-size: 16px;
 	margin: 5px 0;
 	font-family:Courier New, monospace;
 	font-weight: 100;
@@ -370,12 +383,11 @@ body{
 .site_descri h3:hover,.describe:hover,blockquote:hover,.innerbox h3:hover,.sites_logo:hover{
 	color: var(--hover);
 	font-weight: bold;
-	font-style:italic;
+	font-style: italic;
 }
 blockquote{
 	text-align: center;
 	color: var(--blockquote);
-	font-size:16px:
 }
 
 .btn{
@@ -386,7 +398,14 @@ blockquote{
 	margin: 20px 0;
 	gap: 1em;
 }
-.btn button{
+.btn_project{
+  display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: -10px;
+	margin: 20px 0;
+}
+.btn button,.btn_project button {
 	padding:7px ;
 	font-family: monospace;
 	font-size: 17px;
@@ -396,11 +415,12 @@ blockquote{
 	border-radius: 10%;
 
 }
-.btn button:hover{
+.btn button:hover, .btn_project:hover{
 	transition: 0.7s;
 	background-color: var(--btnhover_bg);
 
 	box-shadow: 2px 3px var(--btnhover_shadow) ;
+  cursor: pointer;
 }
 
 #btn5{
@@ -493,7 +513,7 @@ blockquote{
 .sites_logo a{
 	text-decoration: none;
 	color: var(--describe);
-	font-size:16px;
+
 
 
 }
@@ -512,6 +532,12 @@ blockquote{
 
 
 }
+
+
+
+
+
+
 
 
 
@@ -620,74 +646,13 @@ padding:0 0.4rem;
 
 
 
-@media (max-width:500px){
-	.nav-link{
-		font-size: 12px;
-	}
-	#list{
-		margin-right:1em;
-	}
-	#about{
-		margin-top:7vh ;
-
-	}
-	
-	#about p{
-		font-size: 1.5em;
-	}
-	#description{
-	font-size:15px	
-	}
-
-	#clip{
-		font-size: 42px;
-	}
-	.credit_outer{
-		
-		grid-template-rows:1fr ;
-		grid-gap: 1em;
-		height: 650px;
-	}
-	.lined{
-		flex-direction: column;
-	}
-	
-	.project_tile{
-		height: 550px;
-		width:360px;
-		min-width: 360px;
-	}
-	.your_frame{
-		width: 335px;
-		margin:  25px 0 0 13px;
-	}
-	.site_descri{
-		max-width: 420px;
-	}
-	.outerbox{
-		flex-direction: column;
-		width: 360px;
-		height: 850px;
-	}
-	.tile{
-		gap:2em;
-	}
-	
-
-	
-}
-
-
-@media (min-width:500px) and (max-width:730px){
+@media (max-width:760px){
 	.nav-link{
 		font-size: 14px;
 	}
 	#about{
-		margin-top:7vh ;
-		
-	}
-	#list{
-		margin-right:1.5em;
+		/*top: -40px;
+		padding-top: 70px;*/
 	}
 	
 	#about p{
@@ -716,7 +681,7 @@ padding:0 0.4rem;
 	}
 	.your_frame{
 		width: 350px;
-		margin:  25px 0px 0 22px;
+		margin:  25px 0 0 25px;
 	}
 	.site_descri{
 		max-width: 420px;
@@ -727,4 +692,20 @@ padding:0 0.4rem;
 		height: 850px;
 	}
 	
+
+	/*
+	#pic{
+		height: 120px;
+		width: 120px;
+	}
+	
+	#about p{
+		font-size: 20px;
+	}
+	#about h1{
+		font-size: 30px;
+	}
+	.angle{
+	}
+	*/
 }
